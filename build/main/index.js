@@ -1,5 +1,5 @@
 const { app, BrowserWindow } = require('electron');
-
+const path = require('path');
 function createWindow () {
     // 创建浏览器窗口
     const win = new BrowserWindow({
@@ -11,7 +11,7 @@ function createWindow () {
     });
 
     // 并且为你的应用加载index.html
-    win.loadFile('index.html');
+    win.loadFile(path.resolve(__dirname,"../renderer/index.html"));
 
     // 打开开发者工具
     win.webContents.openDevTools()
