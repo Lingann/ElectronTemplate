@@ -1,0 +1,22 @@
+{
+  "name": "electrontemplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lingann/ElectronTemplate.git"
+  },
+  "author": "lingann",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Lingann/ElectronTemplate/issues"
+  },
+  "homepage": "https://github.com/Lingann/ElectronTemplate#readme",
+  "devDependencies": {
+    "electron": "^8.1.1"
+  }
+}
