@@ -81,6 +81,12 @@ typings/
 # Nuxt.js build / generate output
 .nuxt
 dist
+build
+
+# vs
+.vs/
+.vscode/
+.idea
 
 # Gatsby files
 .cache/
